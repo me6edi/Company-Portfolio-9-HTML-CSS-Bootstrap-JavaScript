@@ -126,3 +126,102 @@
 .active-service p{
     color: #fff;
 }
+.feature{
+    margin: 200px 0;
+}
+.feature img,.explore img{
+    max-width: 77%;
+    cursor: pointer;
+}
+.explore h2{
+    margin-top: 50px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.feature p,.explore p{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: #808080;
+    font-size: 14px;
+    line-height: 18px;
+}
+.feature a,.explore a{
+    width: 170px;
+    padding: 15px 10px;
+    display: block;
+    background: #6900d1;
+    text-decoration: none !important;
+    color: #fff !important;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 9px 9px 1px rgba(204,204,204,0.5);
+}
+.explore a{
+    margin-bottom: 50px;
+}
+/*--------- review---------*/
+.review{
+    margin: 100px 0;
+}
+.carousel-item img{
+    width: 150px;
+    border-radius: 50%;
+}
+.carousel-item{
+    text-align: center;
+    height: 430px;
+}
+.carousel-caption{
+    z-index: -1 !important;
+    box-shadow: 0 0 15px 1px rgb(163,163,223,0.5);
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.carousel-caption h6{
+    margin-top: 55px;
+    font-weight: bold;
+    color: #000 !important;
+}
+.carousel-caption small{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: block;
+    color: #000 !important;
+}
+.carousel-caption p{
+    text-align: center;
+    padding: 0 50px;
+    font-size: 15px;
+    color: #808080 !important;
+}
+.carousel-indicators li{
+    background-color: #6900d1 !important;
+}
+@media only screen and (max-width: 800px){
+    .carousel-item{
+        height: 520px;
+    }
+    .carousel-caption{
+        margin: 0 10px 50px 10px;
+        left: 0 !important;
+        right: 0 !important;
+    }
+}
+.footer{
+    background: #6900d1;
+    padding: 10px;
+}
+.footer p{
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer small{
+    color: #fff;
+
+}
